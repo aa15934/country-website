@@ -1,0 +1,71 @@
+/*
+
+    selector {
+        property:value;
+        property:value;
+        property:value;
+    }
+
+    tagname -> select all tags og a given type
+    .classname -> select all tags that have a given class
+    tagname.classname -> select ONLY tags that are ALSO a given class
+
+    > -> child symbol
+
+    tagname>tagname -> select children of a given type
+    .classname>tagname -> select children of a given type
+    tagname>.classname -> select children of a given class
+    .classname>.classname -> select children of a given class
+
+*/
+
+.nav {
+    border-style: dotted ;
+
+    width: 50% ;
+
+    padding-left: 0%;
+   
+    margin: auto;
+
+    list-style: none;
+    
+    text-align: center;
+}
+
+.nav>li {
+    border: ridge;
+    display:inline-block
+}
+
+.nav>li>a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+p {
+        font-size: 50px;
+    }
+
+
+img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.pages {
+    width: 95%;
+    height: auto;
+}
+
+.caves1 {
+    color: lightskyblue;
+    font-size: 300%;
+    text-align: center;
+}
+
+.caves2 {
+    color: lightskyblue;
+    font-size: 250%;
+}
