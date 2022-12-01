@@ -54,9 +54,17 @@ img {
     
 }
 
-.pages {
-    width: 95%;
+.home {
+    width: 50%;
     height: auto;
+    display: block;
+    margin: auto;
+}
+.pages {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
 .caves1 {
@@ -68,6 +76,13 @@ img {
 .caves2 {
     color: lightskyblue;
     font-size: 250%;
+}
+
+.caves3 {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
 .estadio {
