@@ -73,3 +73,17 @@ img {
 .estadio {
     font-size: 250%;
 }
+
+.estadio2 {
+    text-align: center;
+}
+
+.iguazu {
+    color: yellowgreen;
+    font-size: 250%;
+}
+
+.iguazu2 {
+    color: yellowgreen;
+    text-align: center;
+}
